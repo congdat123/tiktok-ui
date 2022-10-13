@@ -13,7 +13,7 @@
     user-select: none;
 
     + .wrapper {
-        margin-left: 6px;
+        margin-left: 15px;
     }
     &.disable {
         pointer-events: none;
@@ -23,7 +23,7 @@
 
 .icon + .title,
 .title + .icon {
-    margin-left: 8px;
+    margin-left: 6px;
 }
 
 .icon {
@@ -67,7 +67,7 @@
     border: 1px solid rgba(22, 24, 35, 0.12);
     border-radius: 2px;
     line-height: 24px;
-    padding: 5px 16px;
+    padding: 5px 12px;
     &:hover {
         background-color: rgba(22, 24, 35, 0.03);
     }
