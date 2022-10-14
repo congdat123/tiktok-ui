@@ -24,7 +24,7 @@ export const Inbox = ({ width = '2.4rem', height = '2.4rem', className }) => (
         height={height}
         display="flex"
         justify-context="center"
-        viewBox="3 3 28 26"
+        viewBox="3 3 25 25"
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
     >

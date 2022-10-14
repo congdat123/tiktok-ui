@@ -113,7 +113,9 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <img src={images.logo} alt="TikTok" />
+                <a href="/">
+                    <img src={images.logo} alt="TikTok" />
+                </a>
                 <HadlessTippy
                     interactive
                     visible={searchResult.length > 0}
@@ -156,13 +158,9 @@ function Header() {
                             <Tippy delay={(0, 200)} content="Inbox" placement="bottom">
                                 <button className={cx('action-btn')}>
                                     <Inbox />
+                                    <span className={cx('badge')}>12</span>
                                 </button>
                             </Tippy>
-                            {/* <Tippy delay={(0, 200)} content="Inbox" placement="bottom">
-                                <button className={cx('action-btn')}>
-                                    <Inbox />
-                                </button>
-                            </Tippy> */}
                         </>
                     ) : (
                         <>
