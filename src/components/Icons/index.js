@@ -37,7 +37,7 @@ export const Inbox = ({ width = '2.4rem', height = '2.4rem', className }) => (
 );
 
 export const SearchHeader = () => (
-    <svg width="24" height="24" viewBox="0 0 48 48" fill="rgba(22, 24, 35, .34)" xmlns="http://www.w3.org/2000/svg">
+    <svg width="24" height="24" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fill-rule="evenodd"
             clip-rule="evenodd"
