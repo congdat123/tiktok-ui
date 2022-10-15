@@ -1,7 +1,6 @@
 // Menu wrapper
 .menu-list {
     width: 224px;
-
     .menu-item {
         margin-left: 0px;
     }
@@ -9,6 +8,7 @@
 
 .menu-popper {
     padding-bottom: 8px;
+    font-family: 'SofiaPro';
 }
 
 // Menu items
@@ -18,7 +18,8 @@
     padding: 11px 16px;
     justify-content: flex-start;
     border-radius: 0;
-    font-weight: 600;
+    font-family: 'SofiaPro', sans-serif;
+    font-weight: 700;
     line-height: 1.8rem;
     &.separate {
         border-top: 1px solid rgba(22, 24, 35, 0.12);
