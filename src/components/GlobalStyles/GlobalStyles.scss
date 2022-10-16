@@ -5,6 +5,8 @@
     --black: #000;
     --white: #fff;
     --text-color: #161823;
+
+    --font-family: 'ProximaNova', sans-serif;
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
@@ -22,10 +24,11 @@ html {
 }
 
 body {
-    font-family: 'ProximaNova', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    color: var(--text-color);
 }
 
 button,
@@ -43,20 +46,20 @@ a[href] {
 // Fonts emmbeded
 @font-face {
     font-family: ProximaNova;
-    src: url('/assets/fonts/Proxima-Nova-Bold.woff2');
+    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: ProximaNova;
-    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
-    font-weight: 600;
+    src: url('/assets/fonts/Proxima-Nova-Bold.woff2');
+    font-weight: 700;
 }
 
 @font-face {
     font-family: ProximaNova;
     src: url('/assets/fonts/ProximaNova-Semibold.woff2');
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @font-face {

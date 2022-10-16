@@ -8,19 +8,17 @@
 
 .menu-popper {
     padding-bottom: 8px;
-    font-family: 'SofiaPro';
 }
 
 // Menu items
 
 .menu-item {
     width: 100%;
-    padding: 11px 16px;
     justify-content: flex-start;
     border-radius: 0;
-    font-family: 'SofiaPro', sans-serif;
-    font-weight: 700;
+    padding: 11px 16px;
     line-height: 1.8rem;
+    font-weight: 600;
     &.separate {
         border-top: 1px solid rgba(22, 24, 35, 0.12);
     }
