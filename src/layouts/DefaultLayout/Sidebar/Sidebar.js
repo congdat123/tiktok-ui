@@ -1,5 +1,4 @@
 import classNames from 'classnames/bind';
-// import { FollowIcon, HomeIcon, LiveIcon } from '~/components/Icons';
 import styles from './Sidebar.module.scss';
 
 const cx = classNames.bind(styles);
@@ -22,9 +21,13 @@ function Sidebar() {
     //         to: '/live',
     //     },
     // ];
+    // console.log(navMenu);
+
     return (
         <aside className={cx('wrapper')}>
-            <div className={cx('nav-content')}>Sidebar</div>
+            <div className={cx('nav-content')}>
+                <p></p>
+            </div>
         </aside>
     );
 }
