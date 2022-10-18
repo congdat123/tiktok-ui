@@ -11,12 +11,12 @@ import styles from './Header.module.scss';
 import images from '~/assets/images';
 import Menu from '~/components/Popper/Menu/Menu';
 import {
+    CameraIcon,
     CircleQuestion,
     CoinIcon,
     Inbox,
     Keyboard,
     LanguageIcon,
-    LiveIcon,
     LogOut,
     Messages,
     SettingIcon,
@@ -78,7 +78,7 @@ function Header() {
             to: '/@hoaa',
         },
         {
-            icon: <LiveIcon />,
+            icon: <CameraIcon />,
             title: 'LIVE Studio',
             to: '/live  ',
         },
